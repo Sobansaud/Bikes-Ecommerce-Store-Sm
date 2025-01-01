@@ -68,7 +68,7 @@ const Cart = () => {
         </button>
       </Link>
 
-      <h1 className="text-white w-full text-7xl text-center my-6 font-bold txt uppercase drop-shadow-txt">
+      <h1 className="text-cyan-500 w-full text-7xl text-center my-6 font-bold uppercase ">
         Cart
       </h1>
 
@@ -95,7 +95,7 @@ const Cart = () => {
                 initial={{ transform: "translateY(100%)" }}
                 animate={{ transform: "translateY(0%)" }}
                 transition={{ duration: 0.5, delay: ind * 0.15 }}
-                className="relative h-full w-full bg-black overflow-hidden p-4 text-white bg-no-repeat bg-center bg-cover bg-[url('/d.png')] border-2 border-black"
+                className="relative h-full w-full bg-black overflow-hidden p-4 text-white bg-no-repeat bg-center bg-cover bg-[url('/bakpic2.jpeg')] border-2 border-black"
               >
                 {/* SETTINGS BUTTON */}
                 <div

@@ -198,7 +198,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
           >
             {/* SELLER DETAILS */}
             <section className="relative h-auto w-full border-2 border-black rounded-xl text-white py-5 px-4 flex flex-col gap-4 bg-black/70">
-              <h1 className="w-full text-center text-3xl font-semibold capitalize mb-4">
+              <h1 className="w-full text-center text-3xl font-bold text-zinc-300 capitalize mb-4">
                 Seller Details
               </h1>
               <h3 className="text-xl">Dealer: Muhammad Soban Saud</h3>
@@ -225,7 +225,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
             </section>
             {/* Bike FEATURES */}
             <section className="h-auto w-full mt-5 rounded-xl bg-center bg-contain bg-black/70 text-white py-5 px-4">
-              <h1 className="w-full text-center text-3xl font-semibold capitalize mb-5">
+              <h1 className="w-full text-center text-3xl font-bold capitalize mb-5 text-zinc-300">
                 Bike Features
               </h1>
               <div className="h-auto w-full flex flex-col gap-2 py-2 px-2">
@@ -258,7 +258,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
                   <div
                     className={`bg-zinc-900 rounded-xl flex items-center justify-center border-2 border-[#331010] duration-500`}
                   >
-                    <h1 className="font-bold sm:text-5xl xs:text-[5vw] text-3xl sm:py-7 py-5 text-center">{BikeData.name}</h1>
+                    <h1 className="font-bold sm:text-5xl xs:text-[5vw] text-3xl sm:py-7 py-5 text-center text-fuchsia-600">{BikeData.name}</h1>
                   </div>
                 </div>
                 <div
@@ -328,7 +328,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
               {/* Bike PRICE */}
               <section className="relative w-full flex justify-between bg-zinc-900 px-4 py-5 text-white rounded-xl overflow-hidden sm:flex-row flex-col">
                 <div className="sm:w-auto w-full">
-                <h1 className="sm:text-4xl xxs:text-3xl text-2xl font-semibold my-2">{BikeData.name}</h1>
+                <h1 className="sm:text-4xl xxs:text-3xl text-2xl font-semibold my-2 text-fuchsia-500">{BikeData.name}</h1>
                 <h2 className="sm:text-xl xxs:text-lg text-sm font-semibold opacity-50">
                 {BikeData.price}
                 </h2>
@@ -377,7 +377,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
               <div className="h-auto w-full flex sm:flex-row flex-col gap-2 items-start justify-center">
                 {/* REPORT */}
                 <section className="relative h-auto w-full bg-zinc-900 rounded-xl px-4 py-5 text-white mb-5">
-                  <h1 className="text-2xl font-semibold">
+                  <h1 className="text-2xl font-bold text-amber-500">
                     SM-AutoMobiles Inspection Report
                   </h1>
                   <h3 className="text-md font-semibold capitalize opacity-50">
@@ -406,7 +406,7 @@ const Page: React.FC<PageProps> = ({ params }) => {
                 </section>
                 {/* RATING */}
                 <section className="h-auto w-full bg-zinc-900 rounded-xl py-5 px-4 mb-5 text-white flex items-center justify-center flex-col">
-                  <h1 className="text-3xl font-semibold w-full text-center pb-3">
+                  <h1 className="text-3xl font-bold text-sky-500 w-full text-center pb-3">
                     Rating Section
                   </h1>
                   <p>{ratingFunc(BikeData.features, BikeRatings, BikeData.name)}</p>

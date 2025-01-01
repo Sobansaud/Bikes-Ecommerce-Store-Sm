@@ -56,14 +56,14 @@ const Contact = () => {
           "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/backpic1.jpg)",
       }}
     >
-      <h1 className="txt xs:text-6xl text-5xl drop-shadow-txt uppercase w-full text-center py-5 font-bold xxs:translate-y-0 translate-y-5">
+      <h1 className=" xs:text-6xl text-5xl text-orange-500 uppercase w-full text-center py-5 font-bold xxs:translate-y-0 translate-y-5">
         Contact
       </h1>
       <div className="h-auto w-full flex md:flex-row flex-col items-center">
         {/* Left Section */}
         <section className="h-auto md:w-1/2 xs:w-4/5 w-full flex items-center justify-center">
           <div className="h-auto md:w-[90%] w-full bg-black shadow-car rounded-lg text-white px-4 py-5 flex flex-col my-10 gap-2 border-[0.5px] border-red-950 ">
-            <h1 className="xs:text-4xl text-3xl capitalize font-semibold">
+            <h1 className="xs:text-4xl text-3xl capitalize font-semibold text-blue-600">
               Contact Details
             </h1>
             <p className="xs:text-lg text-sm text-white/60 font-semibold">

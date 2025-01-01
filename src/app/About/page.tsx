@@ -11,7 +11,7 @@ const About = () => (
     }}
   >
     <section className="md:w-1/2 w-[90%] sm:px-8 px-2 py-5 flex flex-col gap-5 md:mt-0 mt-16">
-      <h1 className="txt drop-shadow-txt xs:text-5xl text-4xl uppercase font-bold">
+      <h1 className="text-orange-500  xs:text-5xl text-4xl uppercase font-bold">
         The SM-GARAGE Legacy
       </h1>
       <p className="sm:text-xl">

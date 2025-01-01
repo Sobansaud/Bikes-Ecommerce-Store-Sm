@@ -47,10 +47,10 @@ export default function Page({ params }: { params: Params }) {
       className="h-auto w-full bg-black pt-16 bg-no-repeat bg-center bg-cover"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/backpic1.jpg)",
+          "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/backpic.jpeg)",
       }}
     >
-      <h1 className="text-white w-full text-7xl text-center my-6 font-bold txt uppercase drop-shadow-txt">
+      <h1 className=" w-full text-6xl text-center my-6 font-bold  uppercase text-slate-700">
         {params.manufacture} Collection
       </h1>
       <div className="flex gap-8 flex-wrap items-center justify-center p-5">
@@ -60,7 +60,7 @@ export default function Page({ params }: { params: Params }) {
               initial={{ transform: "translateY(100%)" }}
               animate={{ transform: "translateY(0%)" }}
               transition={{ duration: 0.1, delay: ind * 0.15 }}
-              className="relative h-full w-full bg-black overflow-hidden p-4 text-white bg-no-repeat bg-center bg-cover bg-[url('/backpic1.jpg')] border-2 border-black"
+              className="relative h-full w-full bg-black overflow-hidden p-4 text-white bg-no-repeat bg-center bg-cover bg-[url('/backpic.jpeg')] border-2 border-black"
             >
               <div className="relative h-[60%] w-full rounded-md">
                 <Image

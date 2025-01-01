@@ -121,7 +121,7 @@ const Buy = () => {
         className={`fixed h-screen w-screen backdrop-blur-glass z-[80] ${orderPlaced ? "flex" : "hidden"}`}
       ></div>
 
-      <h1 className="txt xs:text-6xl text-5xl drop-shadow-txt uppercase w-full text-center py-5 font-bold xxs:translate-y-0 translate-y-5">
+      <h1 className="txt xs:text-6xl text-5xl drop-shadow-md uppercase w-full text-center py-5 font-bold xxs:translate-y-0 translate-y-5">
         Your Order Is Completed
       </h1>
       <div className="h-auto w-full flex md:flex-row flex-col items-center">
@@ -129,9 +129,9 @@ const Buy = () => {
         <section className="h-auto md:w-1/2 xs:w-4/5 w-full flex items-center justify-center">
           <div className="h-screen md:w-[90%] relative w-full bg-black shadow-car rounded-lg text-white px-4 py-5 flex flex-col my-10 gap-2 border-[0.5px] border-red-950">
             <h1 className="xs:text-4xl text-3xl capitalize font-semibold">
-              Sm-Collection
+              SM-COLLECTION
             </h1>
-            <p className="xs:text-sm text-xs text-white/60 font-semibold">
+            <p className="xs:text-sm text-xs text-white/70 font-semibold">
               Driven by excellence, fueled by passion.
             </p>
             <h1 className="text-white">
@@ -227,7 +227,7 @@ const Buy = () => {
               </div>
               <div className="flex items-center justify-center">
                 <button
-                  className="text-xs py-2 px-4 rounded-md text-red-800/50 border-red-800/50 font-bold  border-2 uppercase flex gap-2 items-center justify-center overflow-hidden"
+                  className="text-xs py-2 px-4 rounded-md text-yellow-500 border-blue-500 font-bold  border-2 uppercase flex gap-2 items-center justify-center overflow-hidden"
                   type="submit"
                 >
                   Order Placed

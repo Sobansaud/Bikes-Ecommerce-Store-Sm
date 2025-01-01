@@ -51,7 +51,7 @@ const Inventory = () => {
         className="relative w-full xxxs:px-5 py-8 bg-black overflow-hidden flex flex-col gap-5 items-center justify-center bg-center bg-no-repeat bg-cover"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/backpic1.jpg')",
+            "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/back3.jpeg')",
         }}
       >
         <h1 className="text-red sm:text-7xl xxs:text-5xl text-4xl text-center uppercase font-bold text-transparent drop-shadow-txt bg-clip-text bg-gradient-to-r from-red-800 via-red-600 to-red-800">
