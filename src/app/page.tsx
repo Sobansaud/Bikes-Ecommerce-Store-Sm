@@ -96,9 +96,10 @@ export default function Home() {
               "linear-gradient(to right, rgb(55 9 9 / 75%), rgb(0 0 0 / 75%)), url(/backpic.jpeg)",
           }}
         >
-          <h1 className="txt sm:drop-shadow-txt drop-shadow-txt2 text-white sm:text-6xl text-4xl font-bold uppercase z-10 relative md:mt-20 leading-tight tracking-tighter md:my-3">
-            WELCOME TO <br /> SM-AUTOMOBILES
+          <h1 className="  text-indigo-400 sm:text-6xl text-4xl font-bold uppercase z-10 relative md:mt-20 leading-tight tracking-tighter md:my-3">
+            WELCOME TO<br/> SM-AUTOMOBILES
           </h1>
+         
           <h2 className="sm:text-3xl xxs:text-xl text-lg md:mt-0 mt-3 mb-5 text-white/60 font-semibold">
           Excellence in every ride, passion in every detail
 
